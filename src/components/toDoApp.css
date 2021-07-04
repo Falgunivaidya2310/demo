@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* * {
+    background-image: radial-gradient(circle 879px at 10.4% 22.3%, rgba(225, 238, 235, 1) 0%, rgba(186, 190, 245, 1) 93.6%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px 60px 30px 250px;
+}
+
+.entry .crossText {
+    text-decoration: line-through;
+}
+
+.in {
+    margin-top: 50px;
+    font-size: 20px;
+    border: 3px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    font-family: Varela Round;
+}
+
+.in::placeholder {
+    color: none;
+    font-size: 18px;
+    display: flex;
+}
+
+.in:focus {
+    border: 2px dotted black;
+}
+
+.entry .add-btn {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 48px;
+    align-self: center;
+    padding: 0.23%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 3px solid black;
+    font-family: Varela Round;
+    font-weight: 600;
+    position: relative;
+}
+
+.entry .add-btn:hover {
+    padding: 5px;
+}
+
+.dp {
+    margin-left: 540px;
+    display: flex;
+    align-self: center;
+}
+
+.entry ul {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.entry ul li {
+    list-style: decimal;
+    font-size: 22px;
+    font-family: Shadows Into Light;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* margin-right: 580px;
+    padding-bottom: 5px;
+    padding-left: 10px; */
+    font-weight: 600;
+    flex-direction: row;
+    transition: 0.5s;
+    /* padding: 12px 8px 12px 40px; */
+    position: relative;
+}
+
+.entry ul li .del-btn {
+    margin-left: 180px;
+    font-size: 15px;
+    border: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: Varela Round;
+    font-weight: 600;
+}
+
+.entry ul li .cmp-btn {
+    font-size: 15px;
+    margin-left: 5px;
+    border: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-family: Varela Round;
+    font-weight: 600;
+}
